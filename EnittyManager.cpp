@@ -2,7 +2,7 @@
 #include <algorithm>
 #include "Entity.h"
 
-void EnittyManager::Refresh()
+void EntityManager::Refresh()
 {
 	for (auto& [type, alias_vector] : GroupedEntities) {
 		alias_vector.erase(remove_if(begin(alias_vector), end(alias_vector),
