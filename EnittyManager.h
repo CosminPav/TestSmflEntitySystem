@@ -12,7 +12,7 @@ using EntitiesAliasVector = std::vector<Entity*>;
 
 
 
-class EnittyManager
+class EntityManager
 {
 	EntityVector AllEntities;
 	std::map<size_t, EntitiesAliasVector> GroupedEntities;
